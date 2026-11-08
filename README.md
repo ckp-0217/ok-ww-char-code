@@ -2,7 +2,7 @@
 
 > ## 镜像说明 / Mirror notice
 >
-> 本仓库是 **`ok-oldking/ok-ww-char-code`** 的完整快照：
+> 本仓库是 **`ok-oldking/ok-ww-char-code`** 的完整快照
 
 ---
 
