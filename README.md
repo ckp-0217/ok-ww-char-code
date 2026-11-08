@@ -2,22 +2,7 @@
 
 > ## 镜像说明 / Mirror notice
 >
-> 本仓库是 **`ok-oldking/ok-ww-char-code`**（已下线）截至 2026-11-08 的完整快照：
-> **50 支队伍 / 72 个角色代码压缩包**，作为 OK-WW「队伍创意工坊」插件
-> `ok-ww-workshop` 的代码源使用。
->
-> 原仓库的两个发布端点均已停用——GitHub Pages `okwwcharcode.ok-script.com` 返回 404，
-> Cloudflare Pages `cfokwwchar.ok-script.com` 已从 `ok-script.com` 的 DNS 区移除。
-> 因此本仓库改为 **raw.githubusercontent.com 直链托管**：`teams.json`、`teams/*.json`
-> 里的 `downloadUrl` / `rawUrl` / `jsonUrl` 全部指向本仓库 `main` 分支，
-> 该域名本来就在 OK-WW 工坊的下载白名单 `WORKSHOP_ARCHIVE_HOSTS` 内。
->
-> 原 `.github/workflows/deploy.yml` 与 `CNAME` 已删除：那个 Actions 工作流会在 push 时用
-> 已失效的域名重新生成并覆盖全部链接，然后推回 `main`。生成的 `index.html`
-> （349 KB 静态站）也一并删除，raw 托管不会服务它，需要时用 `npm run build` 重新生成。
->
-> 上游作者 ok-oldking，`package.json` 声明 MIT。全部 72 个压缩包均已通过 OK-WW
-> `inspect_team_archive()` 校验。
+> 本仓库是 **`ok-oldking/ok-ww-char-code`** 的完整快照：
 
 ---
 
